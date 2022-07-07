@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Sneakers | Quan's Hub</title>
+    <link rel="stylesheet" type= "text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <img src="https://i.redd.it/7hcavve8blc21.jpg" width="1000" height="500">
+    <h1>Welcome to Quan's Sneaker Hub</h1>
+    <h2>Keep Up With The Latest Sneaker Releases and Restocks</h2>
+    <h3>Nike | Adidas | Jordan | Yeezy | Off-White </h3>
+    <img src="https://www.pngall.com/wp-content/uploads/5/Login-Button-PNG-Free-Image.png" width="500" height="300">
+    <form class="login-form">
+
+
+
+    <input type="text" placeholder="Username">
+
+
+
+    <input type="password" placeholder="Password">
+
+
+
+    <input type ="button" value="Login" onclick="isStrongPwd()">
+
+
+
+    </form>
+
+    <a href="/new_user_form.html"> Register Here</a>
+
+    <div class="separate">
+        <ul>
+            <li>Latest News</li>
+            <li>Release Dates</li>
+        </ul>
+    </div>
+    <div class="separate">
+        <ul>
+            <li>Weekly Spotlight</li>
+            <li>Resell Trends</li>
+        </ul>
+    </div>
+    <p>{{date}}<p>
+    <br>
+    <a href="https://www.nicekics.com">Nice Kicks<a>
+    <a href="https://www.stockx.com">StockX<a>
+    <a href="https://www.sneakernews.com">Sneaker News<a>
+    <br>
+    <a href="/page2_qh.html">Next</a>
+    <a href="/page3_qh.html">Last</a>
+</body>
+</html>
